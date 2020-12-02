@@ -1,4 +1,4 @@
 # binAMD-FX
 about AMD FX opencore hackintosh
 
-![alt text](https://github.com/cupecups/binAMD-FX/blob/main/IMG_5664.JPG)
+![alt text](https://github.com/cupecups/Z390-Designare-OC/blob/main/Screen%20Shot%202020-11-27%20at%2009.27.47.png)
