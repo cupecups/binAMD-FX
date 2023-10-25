@@ -6,7 +6,24 @@ https://github.com/cupecups/binAMD-FX/blob/c198d1c31083b7741350dcf04ebe9f87355af
 
 ![alt text](https://github.com/cupecups/binAMD-FX/blob/main/hehe.png)
 
-![alt text](https://github.com/cupecups/binAMD-FX/blob/main/6C7D2B53-99BF-4EBC-8944-DC5F6F4AAED4.png)
+on mac os ventura you need replace OS DMG from Apple silicon IPSW, and add cryptexfixup.kext to allow mac os booting without AVX 2
 
-![alt text](https://github.com/cupecups/binAMD-FX/blob/main/IMG_5664.JPG)
+##how to?
+F7A915A0-7E42-4517-AEC1-2BE63C1E4A47
 
+mount preboot disk
+
+ls /Volumes/Preboot
+(to get uuid disk preboot)
+
+
+ls -l /Volumes/Preboot/E7D7993E-5EEC-4091-97C0-73ECA4A5080C/cryptex1/current/os.dmg
+
+
+cp /Users/cupecups/Desktop/UniversalMac_13.0_22A5331f_Restore
+
+cp /Users/cupecups/Desktop/UniversalMac_13.0_22A5331f_Restore/OS.dmg /Volumes/Preboot/E7D7993E-5EEC-4091-97C0-73ECA4A5080C/cryptex1/current/os.dmg
+
+ls -l /Volumes/Preboot/E7D7993E-5EEC-4091-97C0-73ECA4A5080C/cryptex1/current/os.dmg
+
+ls -l /Volumes/Preboot/E7D7993E-5EEC-4091-97C0-73ECA4A5080C/cryptex1/current/
