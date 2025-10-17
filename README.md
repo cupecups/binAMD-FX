@@ -1,5 +1,5 @@
 # binAMD-FX
-about AMD FX opencore hackintosh
+about AMD FX opencore hackintosh (this repo as end of jurney, cause my fx need to rest)
 
 ![alt text](https://github.com/cupecups/binAMD-FX/blob/main/hehe.png)
 
